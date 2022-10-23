@@ -151,13 +151,17 @@ nav {
   }
 
   @media screen and (width < 800px) {
+
     .primary-section {
+        margin-bottom: 10rem;
+    }
+
+    .primary-section-wrap {
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
         margin: 0 0 3rem 0;
         
-       
     }
 
 

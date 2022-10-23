@@ -110,6 +110,9 @@ nav .nav-wrapper .fa-solid {
 }
 @media screen and (width < 800px) {
   .primary-section {
+    margin-bottom: 10rem;
+  }
+  .primary-section-wrap {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
