@@ -23,9 +23,7 @@ nav .nav-logo h4 {
   padding: 0;
 }
 nav .nav-list {
-  width: 100%;
   display: flex;
-  justify-content: space-around;
   padding-right: 2rem;
 }
 nav .nav-list li {

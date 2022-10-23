@@ -32,7 +32,6 @@ nav {
     }
 
     .nav-list {
-        width: 100%;
         display: flex;
         padding-right: 2rem;
 
@@ -42,7 +41,7 @@ nav {
             font-size: 1.2rem;
             font-weight: 600;
 
-            // padding: 0 .8rem;
+            padding: 0 .8rem;
         }
     }
 
