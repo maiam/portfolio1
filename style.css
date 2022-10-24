@@ -100,7 +100,7 @@ nav .nav-wrapper .fa-solid {
   background-color: rgba(253, 246, 237, 0.1);
 }
 
-@media screen and (width < 1000px) {
+@media screen and (max-width: 1000px) {
   nav .nav-list {
     display: none;
   }
@@ -108,7 +108,7 @@ nav .nav-wrapper .fa-solid {
     display: block;
   }
 }
-@media screen and (width < 800px) {
+@media screen and (max-width: 800px) {
   .primary-section {
     margin-bottom: 10rem;
   }
@@ -127,7 +127,7 @@ nav .nav-wrapper .fa-solid {
     align-items: center;
   }
 }
-@media screen and (width < 500px) {
+@media screen and (max-width: 500px) {
   .buttons {
     flex-direction: column;
   }
