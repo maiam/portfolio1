@@ -96,7 +96,10 @@ nav .nav-wrapper .fa-solid {
 .buttons .btn:hover {
   background-color: #fdf6ed1a;
 }
-@media screen and (width < 1000px) {
+@media (width < 1000px) {
+   body {
+    background-color: black;
+   }
   nav .nav-list {
     display: none;
   }
@@ -123,6 +126,7 @@ nav .nav-wrapper .fa-solid {
     align-items: center;
   }
 }
+
 @media screen and (width < 500px) {
   .buttons {
     flex-direction: column;
