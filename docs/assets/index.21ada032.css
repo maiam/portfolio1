@@ -96,7 +96,8 @@ nav .nav-wrapper .fa-solid {
 .buttons .btn:hover {
   background-color: #fdf6ed1a;
 }
-@media (width < 1000px) {
+
+@media (max-width: 1000px) {
    body {
     background-color: black;
    }
